@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Kelompok Banteng - Awal</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
+    <style>
+        body::-webkit-scrollbar{
+    display: none;
+  }
+    </style>
+</head>
+
+<body>
+        <section class="header">
+            <nav>
+                <a href="./index.html"><img src="https://cdn.discordapp.com/attachments/732930416830578743/1105478538565537902/Logo-PFN-color-02-white-300x143.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+<!-- Video -->
+<div class="container">
+  <div class="slide-container active">
+      <div class="slide">
+          <div class="content">
+              <h3>Grup Banteng</h3>
+              <p>Memperkenalkan Proyek Kami</p>
+          </div>
+          <video src="/images/3.mp4" muted autoplay loop></video>
+      </div>
+  </div>
+
+  <div class="slide-container">
+      <div class="slide">
+          <div class="content">
+            <h3>Grup Banteng</h3>
+            <p>Memperkenalkan Proyek Kami</p>
+          </div>
+          <video src="/images/2.mp4" muted autoplay loop></video>
+      </div>
+  </div>
+
+  <div class="slide-container">
+      <div class="slide">
+          <div class="content">
+            <h3>Grup Banteng</h3>
+            <p>Memperkenalkan Proyek Kami</p>
+          </div>
+          <video src="/images/7.mp4" muted autoplay loop></video>
+      </div>
+  </div>
+
+  <div id="next" onclick="next()"> > </div>
+  <div id="prev" onclick="prev()"> < </div>
+
+</div>
+  <!-- Wave -->
+
+        <div class="inner-header flex"></div>
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
+            </div>
+            </section>
+
+<!-- Studio -->
+    <section class="game-section">
+        <h1 class="line-title">Kategori Banteng</h1>
+        <div class="owl-carousel custom-carousel owl-theme">
+        <div class="item active" style="background-image: url(https://i0.wp.com/p4.wallpaperbetter.com/wallpaper/908/550/407/look-power-power-bull-wallpaper-preview.jpg?w=1200&ssl=1);">
+        <div class="item-desc">
+          <a href="./galerisapi.html"><h3>Galeri Banteng</h3></a>
+          <p> Ingin melihat beberapa foto mengenai satwa banteng yang menarik ini? </p>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(https://www.tempatwisata.pro/media/uploads/3092/6603b353267059b08a489cbd206bfac9.jpg);">
+        <div class="item-desc">
+          <a href="./habitat.html"><h3>Habitat Banteng</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(https://ucarecdn.com/ec1918b1-2674-452c-bf61-8f73d8cc40c6/rdr2.jpg);">
+        <div class="item-desc">
+          <a href="./.... .html"><h3>Kategori 3</h3></a></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(https://ucarecdn.com/6ba9052d-6105-4491-917b-e1a65b68f920/pubg.jpg);">
+        <div class="item-desc">
+          <a href="./.... .html"><h3>Kategori 4</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(https://ucarecdn.com/77598be3-c67f-40de-83d3-71a0f2f76c56/fortnite.jpg);">
+        <div class="item-desc">
+          <a href="./.... .html"><h3>Kategori 5</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(https://ucarecdn.com/ed548880-32e4-42af-9d4e-632623903256/farcry5.jpg);">
+        <div class="item-desc">
+          <a href="./.... .html"><h3>Kategori 6</h3></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+<!-- Call to Action -->
+
+<section class="cta">
+    <h1>Call For Our Various Service Anywhere From The World</h1>
+    <a href=""class="hero-btn">CONTACT US</a>
+</section>
+
+<!-- Footer -->
+<section id="about">
+<footer class="footer">
+  <div class="container3">
+    <div class="row3">
+      <div class="footer-col">
+        <h4>Group Banteng</h4>
+        <ul>
+          <li><p>Faeqal Hafidh</p></li>
+          <li><p>Indria Yohana</p></li>
+          <li><p>Mario</p></li>
+          <li><p>Muhammad Alfalah</p></li>
+          <li><p>Faeqal Hafidh</p></li>
+
+        </ul>
+      </div>
+      <div class="footer-col2">
+        <h4>Information</h4>
+        <ul>
+          <li><p>Tugas Agile Scrum mengenai satwa binatang Banteng. Menjelaskan tentang apa itu Banteng, Dimana habitat mereka, Bentuk mereka seperti apa, dan masih banyak lagi.</p></li>
+
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.youtube.com/@StudioPFN"><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</section>
+
+
+<!-- Toggle for Menu ( Android ) -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<!-- Video Slide Kanan Kiri -->
+<script>
+  let slides = document.querySelectorAll('.slide-container');
+  let index = 0;
+
+  function next(){
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+  }
+
+  function prev(){
+      slides[index].classList.remove('active');
+      index = (index - 1 + slides.length) % slides.length;
+      slides[index].classList.add('active');
+  }
+  </script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+<script src="https://kit.fontawesome.com/75572f20e9.js" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>
